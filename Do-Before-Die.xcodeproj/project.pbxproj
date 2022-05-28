@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73B3F1B1255E7B8CDCBAF103 /* Pods_Do_Before_Die.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B793E430FCB4F2561AE6FE4 /* Pods_Do_Before_Die.framework */; };
 		7913E5402841AEA9009D8942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E53F2841AEA9009D8942 /* AppDelegate.swift */; };
 		7913E5422841AEA9009D8942 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E5412841AEA9009D8942 /* SceneDelegate.swift */; };
-		7913E5442841AEA9009D8942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E5432841AEA9009D8942 /* ViewController.swift */; };
 		7913E5472841AEA9009D8942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7913E5452841AEA9009D8942 /* Main.storyboard */; };
 		7913E5492841AEAB009D8942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7913E5482841AEAB009D8942 /* Assets.xcassets */; };
 		7913E54C2841AEAB009D8942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7913E54A2841AEAB009D8942 /* LaunchScreen.storyboard */; };
+		7913E5562841AEDD009D8942 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E5552841AEDD009D8942 /* Category.swift */; };
+		7913E5592841AF1D009D8942 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E5582841AF1D009D8942 /* Note.swift */; };
+		7913E55B2841AF67009D8942 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E55A2841AF67009D8942 /* CategoryTableViewController.swift */; };
+		7913E55D2841AF7A009D8942 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E55C2841AF7A009D8942 /* NoteListViewController.swift */; };
+		7913E55F2841AF96009D8942 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E55E2841AF96009D8942 /* SwipeTableViewController.swift */; };
+		7913E56128424B52009D8942 /* ColorContstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E56028424B52009D8942 /* ColorContstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B793E430FCB4F2561AE6FE4 /* Pods_Do_Before_Die.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Do_Before_Die.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7913E53C2841AEA9009D8942 /* Do-Before-Die.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-Before-Die.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7913E53F2841AEA9009D8942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7913E5412841AEA9009D8942 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7913E5432841AEA9009D8942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7913E5462841AEA9009D8942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7913E5482841AEAB009D8942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7913E54B2841AEAB009D8942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7913E54D2841AEAB009D8942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7913E5552841AEDD009D8942 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7913E5582841AF1D009D8942 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7913E55A2841AF67009D8942 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		7913E55C2841AF7A009D8942 /* NoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
+		7913E55E2841AF96009D8942 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		7913E56028424B52009D8942 /* ColorContstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorContstants.swift; sourceTree = "<group>"; };
+		977CAC91F6BC56E986D363C6 /* Pods-Do-Before-Die.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do-Before-Die.debug.xcconfig"; path = "Target Support Files/Pods-Do-Before-Die/Pods-Do-Before-Die.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B2F3FAC10CA1A009CF49D5 /* Pods-Do-Before-Die.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do-Before-Die.release.xcconfig"; path = "Target Support Files/Pods-Do-Before-Die/Pods-Do-Before-Die.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B3F1B1255E7B8CDCBAF103 /* Pods_Do_Before_Die.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A553CE9E5BBBF6ECD75E0B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				977CAC91F6BC56E986D363C6 /* Pods-Do-Before-Die.debug.xcconfig */,
+				C7B2F3FAC10CA1A009CF49D5 /* Pods-Do-Before-Die.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66B5EA6B469390D3FE4938A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B793E430FCB4F2561AE6FE4 /* Pods_Do_Before_Die.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7913E5332841AEA9009D8942 = {
 			isa = PBXGroup;
 			children = (
 				7913E53E2841AEA9009D8942 /* Do-Before-Die */,
 				7913E53D2841AEA9009D8942 /* Products */,
+				3A553CE9E5BBBF6ECD75E0B9 /* Pods */,
+				66B5EA6B469390D3FE4938A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +92,42 @@
 			children = (
 				7913E53F2841AEA9009D8942 /* AppDelegate.swift */,
 				7913E5412841AEA9009D8942 /* SceneDelegate.swift */,
-				7913E5432841AEA9009D8942 /* ViewController.swift */,
-				7913E5452841AEA9009D8942 /* Main.storyboard */,
+				7913E5572841AEE5009D8942 /* Model */,
+				7913E5542841AEC6009D8942 /* View */,
+				7913E5532841AEBC009D8942 /* Controller */,
 				7913E5482841AEAB009D8942 /* Assets.xcassets */,
 				7913E54A2841AEAB009D8942 /* LaunchScreen.storyboard */,
 				7913E54D2841AEAB009D8942 /* Info.plist */,
 			);
 			path = "Do-Before-Die";
+			sourceTree = "<group>";
+		};
+		7913E5532841AEBC009D8942 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7913E55A2841AF67009D8942 /* CategoryTableViewController.swift */,
+				7913E55C2841AF7A009D8942 /* NoteListViewController.swift */,
+				7913E55E2841AF96009D8942 /* SwipeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7913E5542841AEC6009D8942 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7913E5452841AEA9009D8942 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7913E5572841AEE5009D8942 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7913E5552841AEDD009D8942 /* Category.swift */,
+				7913E5582841AF1D009D8942 /* Note.swift */,
+				7913E56028424B52009D8942 /* ColorContstants.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7913E5502841AEAB009D8942 /* Build configuration list for PBXNativeTarget "Do-Before-Die" */;
 			buildPhases = (
+				AEC04ADCD10D0417E2860A9F /* [CP] Check Pods Manifest.lock */,
 				7913E5382841AEA9009D8942 /* Sources */,
 				7913E5392841AEA9009D8942 /* Frameworks */,
 				7913E53A2841AEA9009D8942 /* Resources */,
+				4253FBE785E740D42E40C005 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +198,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4253FBE785E740D42E40C005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Do-Before-Die/Pods-Do-Before-Die-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Do-Before-Die/Pods-Do-Before-Die-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Do-Before-Die/Pods-Do-Before-Die-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC04ADCD10D0417E2860A9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Do-Before-Die-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7913E5382841AEA9009D8942 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7913E5442841AEA9009D8942 /* ViewController.swift in Sources */,
+				7913E56128424B52009D8942 /* ColorContstants.swift in Sources */,
+				7913E5592841AF1D009D8942 /* Note.swift in Sources */,
 				7913E5402841AEA9009D8942 /* AppDelegate.swift in Sources */,
+				7913E55D2841AF7A009D8942 /* NoteListViewController.swift in Sources */,
+				7913E55F2841AF96009D8942 /* SwipeTableViewController.swift in Sources */,
+				7913E55B2841AF67009D8942 /* CategoryTableViewController.swift in Sources */,
 				7913E5422841AEA9009D8942 /* SceneDelegate.swift in Sources */,
+				7913E5562841AEDD009D8942 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +394,13 @@
 		};
 		7913E5512841AEAB009D8942 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977CAC91F6BC56E986D363C6 /* Pods-Do-Before-Die.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FQT58QHTS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Do-Before-Die/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,11 +423,13 @@
 		};
 		7913E5522841AEAB009D8942 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B2F3FAC10CA1A009CF49D5 /* Pods-Do-Before-Die.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FQT58QHTS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Do-Before-Die/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
